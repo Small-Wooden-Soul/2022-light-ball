@@ -17,3 +17,5 @@ while True:
     message = input('RGB:')
     s.sendto(message.encode(), ( ip, port ))
     print("sent message:",message)
+
+# test pull 1
